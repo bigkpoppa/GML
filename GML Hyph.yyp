@@ -4,8 +4,10 @@
     {"id":{"name":"small","path":"sprites/small/small.yy",},"order":1,},
     {"id":{"name":"big","path":"sprites/big/big.yy",},"order":3,},
     {"id":{"name":"Obj_ship","path":"objects/Obj_ship/Obj_ship.yy",},"order":0,},
+    {"id":{"name":"bull","path":"sprites/bull/bull.yy",},"order":4,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"objAst","path":"objects/objAst/objAst.yy",},"order":1,},
+    {"id":{"name":"Obj_bul","path":"objects/Obj_bul/Obj_bul.yy",},"order":2,},
     {"id":{"name":"game_room","path":"rooms/game_room/game_room.yy",},"order":0,},
   ],
   "Options": [

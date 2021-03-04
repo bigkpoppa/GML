@@ -1,14 +1,20 @@
 {
   "resources": [
+    {"id":{"name":"Obj_game","path":"objects/Obj_game/Obj_game.yy",},"order":4,},
+    {"id":{"name":"Obj_deb","path":"objects/Obj_deb/Obj_deb.yy",},"order":3,},
     {"id":{"name":"med","path":"sprites/med/med.yy",},"order":2,},
+    {"id":{"name":"game_over","path":"rooms/game_over/game_over.yy",},"order":3,},
+    {"id":{"name":"spr_debris","path":"sprites/spr_debris/spr_debris.yy",},"order":5,},
+    {"id":{"name":"game_start","path":"rooms/game_start/game_start.yy",},"order":0,},
     {"id":{"name":"small","path":"sprites/small/small.yy",},"order":1,},
     {"id":{"name":"big","path":"sprites/big/big.yy",},"order":3,},
     {"id":{"name":"Obj_ship","path":"objects/Obj_ship/Obj_ship.yy",},"order":0,},
     {"id":{"name":"bull","path":"sprites/bull/bull.yy",},"order":4,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
-    {"id":{"name":"objAst","path":"objects/objAst/objAst.yy",},"order":1,},
+    {"id":{"name":"Obj_Ast","path":"objects/Obj_Ast/Obj_Ast.yy",},"order":1,},
+    {"id":{"name":"game_win","path":"rooms/game_win/game_win.yy",},"order":2,},
     {"id":{"name":"Obj_bul","path":"objects/Obj_bul/Obj_bul.yy",},"order":2,},
-    {"id":{"name":"game_room","path":"rooms/game_room/game_room.yy",},"order":0,},
+    {"id":{"name":"game_room","path":"rooms/game_room/game_room.yy",},"order":1,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -22,7 +28,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"game_start","path":"rooms/game_start/game_start.yy",},},
     {"roomId":{"name":"game_room","path":"rooms/game_room/game_room.yy",},},
+    {"roomId":{"name":"game_win","path":"rooms/game_win/game_win.yy",},},
+    {"roomId":{"name":"game_over","path":"rooms/game_over/game_over.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

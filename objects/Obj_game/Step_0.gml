@@ -12,11 +12,13 @@ if(keyboard_check_pressed(vk_enter)){
 }
 
 if(room == game_room){
-	if(score >= 450){
+	if(score >= 300){
 		room_goto(game_win);
+		audio_play_sound(snd_win, 1, false);
 	}
 
 	if(lives <= 0){
 		room_goto(game_over);
+		audio_play_sound(snd_lose, 1, false);
 	}
 }

@@ -13,7 +13,7 @@ switch(room){
 		);
 		draw_text(
 			room_width/2, 200,
-			@"Score 450 points to win.
+			@"Score 300 points to win.
 			
 			UP:	move
 			SPACE: shoot
@@ -43,7 +43,7 @@ switch(room){
 	draw_set_halign(fa_center);
 		var c = c_red;
 		draw_text_transformed_color(
-			room_width/2, 1500, "Game Over",
+			room_width/2, 150, "Game Over",
 			3, 3, 0, c,c,c,c, 1
 		);
 		draw_text(
